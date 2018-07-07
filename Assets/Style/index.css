@@ -1,0 +1,213 @@
+/***
+
+TABLE OF CONTENTS
+
+-------------- header.php ------------------
+
+NAVBAR - navigation bar 
+LOGO - navigation bar logo
+CATEGORIES - navigation bar category options
+FOOTER - page footer
+MENU - user dropdown menu 
+
+-------------- footer.php ------------------
+
+SOCIAL - social section of footer
+APPS - apps section of footer
+TERMS -  terms section
+
+***/
+
+*{
+	margin:0;
+	padding:0;
+}
+
+/*----------------header.php-----------------*/
+
+
+/*NAVBAR*/
+.navbar
+{	
+	height: 60px;
+	padding: 20px;
+	background-color: #000;
+	display: grid;
+	grid-template-columns:  auto auto auto;	
+	font-family: 'Lato', sans-serif;
+}
+
+
+/*LOGO*/
+#nav-logo
+{
+	background: #FFFFFF;
+	height: 60px;
+	width: 60px;
+	border-radius: 20px;
+	margin-left: 50px;
+}
+
+
+/*CATEGORIES*/
+.navbar-options ul
+{
+	display: block;
+	width: 700px;
+	list-style: none;
+	display: grid;
+	grid-template-columns: auto auto auto auto;	
+	text-align: center;
+}
+
+.navbar-options a
+{
+	position: absolute;
+	top: 40px;
+	font-weight: 400;
+	font-size: 20px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.navbar-options a:hover
+{
+	color: #CCCACA;
+}
+
+
+/*MENU*/
+.dropbtn 
+{
+    background-color: #000;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown
+{
+	position: absolute;
+	top:20px;
+	left: 90%;
+}
+
+.dropdown-content 
+{
+    display: none;
+    position: absolute;
+    background-color: #000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0px;
+}
+
+.dropdown-content a 
+{
+	font-weight: 900;
+    color: #fff;
+    padding: 20px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover 
+{
+	background-color: #4A4848
+}
+
+.dropdown:hover .dropdown-content 
+{
+    display: block;
+}
+
+.dropdown:hover .dropbtn 
+{
+    background-color: transparent;
+}
+
+/*--------------footer.php----------------*/
+
+/*FOOTER*/
+.footer
+{
+	padding-bottom: 150px;
+	width: 100%;
+	background-color: #000;
+	color: #fff;
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
+
+/*SOCIAL*/
+.footer-social h2
+{
+	font-weight: 400;
+	padding-top: 60px;
+	padding-left: 120px;
+}
+
+.footer-social h3
+{
+	font-weight: 300;
+	font-weight: lighter;
+	padding-top: 10px;
+	padding-left: 120px;
+}
+
+
+/*APPS*/
+.footer-apps h2
+{
+	font-weight: 400;
+	padding-top: 60px;
+	padding-left: 120px;
+}
+
+.footer-apps h3
+{
+	font-weight: 300;
+	font-weight: lighter;
+	padding-top: 10px;
+	padding-left: 120px;
+}
+
+
+/*TERMS*/
+.footer-terms
+{
+	margin-top: 50px;
+	text-align: left;
+	float: right;
+}
+
+.footer-terms ul
+{
+	font-weight: 400;
+	font-size: 17px;
+	color: #FFFFFF;
+	letter-spacing: 0.1px;
+	line-height: 60px;
+	display: grid;
+	grid-template-columns: auto auto;	
+}
+
+.footer-terms a
+{
+	text-decoration: none;
+	color: #fff;
+}
+
+.footer-terms a:hover
+{
+	color: #AAAAAA;
+
+}
+
+.overlay
+{
+	display: none;
+}

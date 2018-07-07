@@ -1,0 +1,90 @@
+/***
+
+TABLE OF CONTENTS
+
+-------------- Home Page -------------
+
+DASHBOARD - home landing page
+
+***/
+
+/*---------------- Home Page ----------------*/
+
+html,body
+{
+	background-color: #000;
+}
+
+
+/*DASHBOARD*/
+
+.home-dashboard
+{
+	text-align: center;	
+	color: #fff;
+	margin-top: 300px;
+    font-family: 'Lato', sans-serif;
+}
+
+.home-header h2
+{	
+	font-weight: 900;
+	font-weight: lighter;
+	font-size: 60px;
+}
+
+.home-header h3
+{
+	margin-top: 10px;
+	font-weight: 300;
+	font-weight: lighter;
+}
+
+.home-header h2
+{
+   
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+         -o-animation: fadein 3s; /* Opera < 12.1 */
+            animation: fadein 3s;
+}
+
+.home-header h3
+{
+   
+    -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 6s; /* Firefox < 16 */
+        -ms-animation: fadein 6s; /* Internet Explorer */
+         -o-animation: fadein 6s; /* Opera < 12.1 */
+            animation: fadein 6s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

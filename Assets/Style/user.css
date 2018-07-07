@@ -1,0 +1,225 @@
+/***
+
+TABLE OF CONTENTS
+
+------------ User Authenication --------------
+	
+CONTAINER - user login/signup page container
+USER-FORMS - login/signup forms
+TERMS_BOX - terms custom box
+
+***/
+
+/*------------ User Authenication --------------*/
+
+/*CONTAINER*/
+.user-container
+{
+	height: 700px;
+	
+}
+
+/*USER-FORMS*/
+#user-form
+{
+	font-family: 'Lato', sans-serif;
+	width: 100%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top:200px;
+	padding: 10px;
+	max-width:500px;
+	background-color: #fff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#user-form hr
+{
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+#user-form input
+{
+	width: 92%;
+	height: 40px;
+	font-size:14px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 10px;
+	background-color: #F4F4F4;
+	border-style: none;
+}
+
+#user-form input:focus 
+{
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	outline-width: 0;
+}
+
+.form-group h2
+{
+	text-align: center;
+	font-weight: 400;
+	color: #282828;
+	margin-bottom: 10px;
+}
+
+.form-group form
+{
+	padding: 20px;
+}
+
+.form-group
+{
+	margin-top: 20px;
+	margin-bottom: 10px;
+
+}
+
+.form-group button
+{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 14px;
+	width: 95%;
+	height: 40px;
+	font-weight: 900;
+	background-color: #DFDFDF;
+	color: #282828;
+	border-style: none;
+}
+.form-group button:hover
+{
+	background-color: #A8A8A8;
+}
+.form-group button:focus
+{
+	outline-width: 0;
+}
+
+.form-group a
+{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	width: 87%;
+	font-size: 14px;
+	text-align: center;
+	font-weight: 900;
+	background-color: #282828;
+	text-decoration: none;
+	color: #fff;
+}
+
+.form-group a:hover
+{
+	background-color: #515151;
+}
+
+
+
+/*TERMS_BOX*/
+.terms
+{
+	display: grid;
+	grid-template-columns: auto auto;
+	padding-top: 8px; 
+	margin-left: 16px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	width: 350px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none; 
+}
+.terms a
+{	
+	margin-left: 40px;
+	margin-top: 2px;
+	text-decoration: none;
+	color: #48495B;
+	width: 400px;
+}
+.terms a:hover
+{
+	color: #CBCCD6;
+}
+.checkbox
+{
+	position: relative;
+}
+
+/*hide browser default checkbox*/
+.terms input
+{
+	position: absolute;
+	opacity: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+/* On mouse-over, add a grey background color */
+.terms:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.terms input:checked ~ .checkmark 
+{
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after 
+{
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.terms input:checked ~ .checkmark:after 
+{
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.terms .checkmark:after 
+{
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}

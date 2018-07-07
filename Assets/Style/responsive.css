@@ -1,0 +1,656 @@
+/***
+
+TABLE OF CONTENTS
+
+The following file(s) have responsive
+styling performed in this file:
+
+--------- catergory.css 
+
+--------- index.css 
+
+--------- home.css 
+
+--------- terms.css 
+
+--------- user.css 
+
+***/
+
+
+/* Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (max-width: 1024px) 
+{
+
+	/*NAVBAR*/
+	.navbar-options ul
+	{
+		width: 500px;
+	}
+
+	/*------------- catergory.css --------------*/
+	
+	/*HEADER*/
+	.cat-header
+	{
+		display: grid;
+		grid-template-columns: auto auto;	
+		font-size: 80px;
+	}
+
+	.cat-header h1
+	{
+		padding-right: 40px;
+	}
+
+	.cat-header h4
+	{
+		top: 190px;
+		padding-left: 40px;
+		font-size: 30px;
+	}
+
+	.cat-header a
+	{
+		top: 180px;
+		font-size: 30px;
+	}
+
+	/*DASHBOARD*/
+	.cat-dashboard 
+	{
+		height: 100%;
+		padding: 30px;
+		padding-top: 60px;
+		display: grid;
+		grid-template-columns: auto auto;	
+		column-gap: 0px;
+	}
+
+	.cat-dashboard h2
+	{	
+		font-size: 48px;
+	}
+
+	/*DASHBOX*/
+	.cat-box 
+	{
+		height: 700px;
+		min-width: 400px;
+		max-width: 400px;
+	}
+	.cat-box img
+	{
+		height: 700px;
+		min-width: 400px;
+		max-width: 400px;
+	}
+
+
+	.cat-b1-txt h2
+	{
+		top: 740px;
+		margin-left: 195px;
+		font-size: 50px;
+		color: #fff;
+	}
+
+	.cat-b1-txt h3
+	{
+		top: 800px;
+		margin-top: 0px;
+		margin-left: 220px;
+		font-size: 50px;
+		color: #fff;
+	}
+
+	.cat-b2-txt h2
+	{
+		top: 740px;
+		margin-left: 260px;
+		font-size: 50px;
+		color: #fff;
+	}
+
+	.cat-b2-txt h3
+	{
+		top: 800px;
+		margin-top: 0px;
+		margin-left: 230px;
+		font-size: 50px;
+		color: #fff;
+	}
+
+	#box-3 
+	{
+		display: none;
+	}
+
+	.res-footer
+	{
+		display: none;
+	}
+
+	/*FEED*/
+	.feed-header
+	{
+		padding-left: 40px;
+	}
+
+	.feed-title
+	{
+		padding: 20px;
+		padding-right: 0;
+		margin-right: 0;
+	}
+
+	.feed-title a
+	{
+		font-size: 60px;
+	}
+
+	.feed-item
+	{
+		width: 95%;
+	}
+
+	.feed-item .feed-date
+	{
+		font-size: 25px;
+		font-family: 'Lato', italic;
+		font-weight: 400;
+	}	
+
+	.feed-lists 
+	{
+		padding-left: 30px;
+	}
+
+	.feed-item-image 
+	{
+		max-width: 700px;
+		max-height: 600px; 
+	}
+
+	.feed-description 
+	{
+		font-size: 30px;
+		margin-right: 10px;
+		width: 750px;
+	}
+
+
+	/*LATEST_TOPIC_FEED*/
+	.c1-feed .feed-title h1
+	{
+		color: #000;
+		font-size: 60px;
+		padding-top: 50px;
+		text-decoration: none;
+	}
+
+	.c1-feed .feed-item
+	{
+		width: 100%;
+		border-bottom: 0px;
+	}
+
+	.c1-feed .feed-description
+	{
+		font-size: 40px;
+		margin-right: 20px;
+	}
+
+	.c1-feed .feed-item .feed-date
+	{
+		font-size: 25px;
+		font-family: 'Lato', italic;
+		font-weight: 400;
+	}
+
+	/*LATEST_TOPIC*/
+	.c1-header
+	{
+		height: 130px;
+	}
+
+	.c1-header h1
+	{
+		font-size: 80px;
+	}
+
+	.c1-header h4
+	{
+		font-size: 30px;
+		margin-left: 135px;
+		top: 160px;
+	}
+
+	.c1-header a
+	{
+		font-size: 30px;
+		top: 160px;
+	}
+
+	.m-cmt-txt h2
+	{
+		font-size: 40px;
+	}
+
+	.m2-music iframe
+	{
+		height: 700px;
+		width: 700px;
+	}
+
+	/*OUR_PICKS*/
+	.c2-header
+	{
+		height: 130px;
+	}
+	.c2-header h1
+	{
+		font-size: 80px;
+	}
+	.c2-header h4
+	{
+		font-size: 30px;
+		top: 165px;
+		margin-left: 140px;
+	}
+
+	.c2-header a
+	{
+		font-size: 30px;
+		top: 165px;
+	}
+
+	.c2-ourpick h3
+	{
+		margin-top: 30px;
+		text-align: center;
+		padding: 8px;
+		font-size: 40px;
+	}
+
+	/*DISQUS*/
+	#disqus_thread
+	{
+		padding-left: 20px;
+		padding-right: 20px;
+		max-width: 1000px;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.res-footer
+	{
+		display: block;
+	}
+
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) 
+{
+
+	.cat-header h4
+	{
+		top: 250px;
+		padding-left: 40px;
+		font-size: 30px;
+	}
+
+	.cat-header a
+	{
+		top: 240px;
+		font-size: 30px;
+	}
+
+	.c1-header h4
+	{
+		font-size: 30px;
+		top: 220px;
+		margin-left: 135px;
+	}
+
+	.c1-header a
+	{
+		font-size: 30px;
+		top: 220px;
+	}
+    
+    .c2-header h4
+	{
+		font-size: 30px;
+		top: 220px;
+		margin-left: 135px;
+	}
+
+	.c2-header a
+	{
+		font-size: 30px;
+		top: 220px;
+	}
+
+
+	/*--------------- index.css ------------------*/
+	/*NAVBAR*/
+	.navbar
+	{
+		height: 120px;
+		padding-left: 0px;
+		background-color: #000;
+	}
+
+	.navbar-options a
+	{
+		display: none;
+	}
+
+	/*LOGO*/
+	#nav-logo
+	{
+		margin-left: 60px;
+		position: absolute;
+		top: 30px;
+		height: 100px;
+		width: 100px;
+
+	}
+
+	/*MENU*/
+	.dropbtn
+	{
+		background-color: transparent;
+		font-size: 30px;
+	}
+
+	.dropdown
+	{
+		left: 85%;
+		top: 35px;
+		font-size: 40px;
+	}	
+
+	.dropdown-content
+	{
+		width: 300px;
+	}
+
+	.footer
+	{
+		display: none;
+	}
+
+	/*APPS*/
+	.footer-apps h2
+	{
+		display: none;
+	}
+
+	.footer-apps h3
+	{
+		display: none;
+	}
+
+	.res-footer 
+	{
+		height: 200px;
+		background-color: #000;
+	}
+
+	.res-footer h4
+	{
+		font-family: 'Lato', sans-serif;
+		font-weight: 400;
+		font-size: 30px;
+		color: #fff;
+		text-align: center;
+		padding-top: 90px;
+	}
+
+	/*Responsive Navbar (background) */
+	.overlay
+	{
+		display: block;
+	}
+
+	.overlay {
+	    /* Height & width depends on how you want to reveal the overlay (see JS below) */    
+	    height: 100%;
+	    width: 0;
+	    position: fixed; /* Stay in place */
+	    z-index: 1; /* Sit on top */
+	    left: 0;
+	    top: 0;
+	    background-color: rgb(0,0,0); /* Black fallback color */
+	    background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+	    overflow-x: hidden; /* Disable horizontal scroll */
+	    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+	}
+
+	/* Position the content inside the overlay */
+	.overlay-content 
+	{
+		font-family: 'Lato', sans-serif;
+	    position: absolute;
+	    top: 25%; /* 25% from the top */
+	    width: 100%; /* 100% width */
+	    text-align: center; /* Centered text/links */
+	    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+	}
+
+	hr
+	{
+		background-color: #757575;
+	}
+
+	.res-nav
+	{
+		padding-bottom: 200px;
+		font-weight: 900;
+	}
+
+	.overlay-content .footer-terms ul
+	{
+		font-family: 'Lato', sans-serif;
+		font-weight: 400;
+		display: grid;
+		grid-template-columns: auto auto; 
+		text-align: center;
+	}
+
+	.overlay-content .footer-terms a
+	{
+		font-size: 40px;
+		padding-right: 130px;
+	}
+
+
+	/* The navigation links inside the overlay */
+	.overlay a 
+	{
+	    padding: 8px;
+	    text-decoration: none;
+	    font-size: 80px;
+	    color: #818181;
+	    display: block; /* Display block instead of inline */
+	    transition: 0.3s; /* Transition effects on hover (color) */
+	}
+
+	/* When you mouse over the navigation links, change their color */
+	.overlay a:hover, .overlay a:focus {
+	    color: #f1f1f1;
+	}
+
+	/* Position the close button (top right corner) */
+	.overlay .closebtn 
+	{
+	    position: absolute;
+	    top: 20px;
+	    right: 45px;
+	    font-size: 120px;
+	}
+
+	/*-------------------- home.css ------------------*/
+	/*DASHBOARD*/
+    .home-dashboard
+    {
+        margin-top: 180px;
+        padding: 20px;
+    }
+
+    .home-header h2
+    {   
+        font-weight: 900;
+        font-size: 80px;
+    }
+    .home-header h3
+    {   
+        font-size: 40px;
+    }
+
+    /*CONTAINER*/
+	.about-container
+	{
+		margin-top:200px;
+		height: 1170px;
+		text-align: center;
+		padding: 10px;
+		display: grid;
+	}
+
+
+	/*-------------------- terms.css ------------------*/
+	/*TEXT*/
+	.about-text h1
+	{
+		font-weight: 900;
+		font-size: 80px;
+	}
+
+	.about-text h2
+	{
+		font-size: 30px;
+	}
+
+	.about-text h3
+	{
+		margin-top: 70px;
+		font-size: 30px;
+	}
+	.about-text p
+	{
+		margin-top: 70px;
+		font-size: 30px;
+		max-width: 700px;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	/*CONTAINER*/
+	.user-container
+	{
+		height: 1190px;
+	}
+
+	/*USER-FORMS*/
+	#user-form
+	{
+		margin-top:200px;
+		padding: 10px;
+		max-width:700px;
+	}
+
+	#user-form input
+	{
+		font-size:30px;
+		height: 80px;
+	}
+
+	.form-group h2
+	{
+		font-size: 40px;
+	}
+
+	.form-group button
+	{
+		font-size: 30px;
+		height: 70px;
+	}
+
+	.form-group a
+	{
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-top: 23px;
+		padding-bottom: 23px;
+		width: 87%;
+		font-size: 30px;
+	}
+
+
+	/*-------------------- user.css ------------------*/
+	/*TERMS_BOX*/
+	.terms
+	{
+		cursor: pointer;
+		height: 60px;
+		width: 300px;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none; 
+	}
+	.terms a
+	{	
+		font-size: 20px;
+		margin-left: 60px;
+		margin-top: 20px;
+		text-decoration: none;
+		color: #48495B;
+	}
+	.terms a:hover
+	{
+		color: #CBCCD6;
+	}
+	.checkbox
+	{
+		margin-top: 10px;
+		margin-left: 10px;
+		position: relative;
+	}
+
+	/*hide browser default checkbox*/
+	.terms input
+	{
+		position: absolute;
+		opacity: 0;
+	}
+
+	/* Create a custom checkbox */
+	.checkmark 
+	{ 
+	    height: 45px;
+	    width: 45px;
+	}
+
+	/* Style the checkmark/indicator */
+	.terms .checkmark:after 
+	{
+	    left: 17px;
+	    top: 10px;
+	    width: 10px;
+	    height: 15px;
+	    border: solid white;
+	    border-width: 0 5px 5px 0;
+	    -webkit-transform: rotate(35deg);
+	    -ms-transform: rotate(35deg);
+	    transform: rotate(35deg);
+	}
+
+}
