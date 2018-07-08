@@ -13,6 +13,7 @@ News feed website that pulls the latest fashion, sneakers, music, and sports RSS
 ## Contributors
 
 Name: Hadi Aamir 
+
 Feed Society Website: https://www.feedsociety.ml
 
 ## License & Copyright
