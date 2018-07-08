@@ -3,7 +3,7 @@ News feed website that pulls the latest fashion, sneakers, music, and sports RSS
 
 ## Installation
 
-1.Clone the Repository to your www directory
+1. Clone the Repository to your www directory
    ```
    $ git clone https://github.com/hadiaamir/Feed-Society.git
    ```
