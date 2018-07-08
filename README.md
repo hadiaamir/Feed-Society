@@ -1,6 +1,5 @@
 # Feed-Society
 News feed website that pulls the latest fashion, sneakers, music, and sports RSS feeds.
-# Feed Society
 
 ## Installation
 
